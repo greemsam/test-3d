@@ -10,7 +10,7 @@
 <body>
 	<script type="text/javascript" src="http://map.vworld.kr/js/vworldMapInit.js.do?version=2.0&apiKey=C41694BC-B97E-3567-83B7-4D5E37D34AF1"></script>
 	var map;
- 
+ <script>
 var mapOptions = new vw.MapOptions(vw.BasemapType.GRAPHIC, "",
     vw.DensityType.BASIC,
     vw.DensityType.BASIC,
@@ -73,5 +73,6 @@ function rollControl(flag,loc){
         map.lookat.moveTo(mapOptions.initPosition); //초기위치이동
     }
 }
+	</script>
 </body>
 </html>
